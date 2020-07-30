@@ -115,3 +115,43 @@
 	});
 
 })(jQuery);
+
+function project(){
+	$.getJSON("data/project.json", function (data) {
+		var projects = "";
+		$.each(data, function (key, val) {
+			let temp = `<div class="col-md-4">
+						  <div class="service-box">
+							  <div class="service-ico">
+								  <span class="ico-circle">
+									  <i class="ion-code-working"></i>
+								  </span>
+							  </div>
+							  <div class="service-content">
+								  <h2 class="s-title">` + val.title + `</h2>
+								  <p class="s-description text-center">
+									  ` + val.description + `
+									  <a href="` + val.detail_link + `">Detail</a>
+								  </p>
+							  </div>
+						  </div>
+					  </div>`;
+			projects += temp;
+		});
+		$('#projects').html(projects);
+	});
+}
+
+function about() {
+	$.getJSON("data/about.json", function (data) {
+		$('#aboutme').html(data.about_me);
+		$('#interested_in').html(data.interested);
+		
+		$('#about-info-profile').html(data.profile);
+		$('#about-info-contact').html(data.contact);
+		$('#about-info-gmail').html(data.gmail);
+		$('#about-info-college').html(data.college);
+		$('#looking-for').html(data.looking_for);
+		console.log(data);
+	});
+}

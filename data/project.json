@@ -1,0 +1,32 @@
+{
+    "0":{
+        "title": "3-D GOOGLE USER INTERFACE",
+        "description": "Build Plugin for the Unity3D using .NET Framework. Build android App to do multiple searching in 3D world using the Plugin,Unity3D and Android SDK.",
+        "detail_link": "https://github.com/satya7289/3D-Google-UserInterface-VR"
+    },
+    "1":{
+        "title": "LIBRARY MANAGEMENT PORTAL",
+        "description": "Customised Different type of users and permission.RESTful API written in Django to expose important data to applications.",
+        "detail_link": "https://github.com/satya7289/Library"
+    },
+    "2":{
+        "title": "BOOK-REVIEW",
+        "description": "Build web portal where user can search for the book and review it. Maintain that one user can give maximum one review and see all the review reviewed by the others.",
+        "detail_link": "https://github.com/satya7289/Book_Review"
+    },
+    "3":{
+        "title": "SPORT INVENTORY MANAGEMENT",
+        "description": "Build web app for managing inventories and send remainder to the students.",
+        "detail_link": "https://github.com/satya7289/Sport"
+    },
+    "4":{
+        "title": "VISUALIZE SORTING ALGORITHM",
+        "description": "Build an animative view, how sorting happend inside an array. e.g. Merge Sort, Quick Sort, Insertion Sort, Bubble Sort, etc",
+        "detail_link": "https://github.com/satya7289/visualize-sorting"
+    },
+    "5":{
+        "title": "Serverless ChatBot",
+        "description": "Build an serverless chatbot using IBM watson, and deployed it to android App",
+        "detail_link": "https://github.com/satya7289/Serverless-chatbot"
+    }
+}
